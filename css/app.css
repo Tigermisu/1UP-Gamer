@@ -1,0 +1,30 @@
+@font-face {
+	font-family: arcade;
+	src: url("../fonts/arcade.ttf");
+}
+
+body {
+	background-image: url("../img/Background.jpg");
+}
+
+.header {
+	background: #000; 
+	margin-top: 20px;
+	padding: 20px 10px;
+	overflow: auto;
+
+}
+
+.headerbutton{
+	vertical-align: center;
+	margin: auto;
+	display: inherit;
+
+
+}
+
+h2{
+	font-family: arcade;
+	text-align: center;
+	color: #FFF;
+}
