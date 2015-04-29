@@ -16,15 +16,30 @@ body {
 }
 
 .headerbutton{
-	vertical-align: center;
 	margin: auto;
 	display: inherit;
-
-
+	margin-top: 7px;
 }
 
 h2{
 	font-family: arcade;
 	text-align: center;
 	color: #FFF;
+}
+
+.searchbar{
+	max-width: 90%;
+
+}
+
+.lupa{
+	float: right;
+	position: absolute;
+	left: 83%;
+	top: 0%;
+	background: url("../img/lupa.png");
+	background-size: cover;
+	height: 37px;
+	width: 37px;
+	border-width: 0px;
 }
