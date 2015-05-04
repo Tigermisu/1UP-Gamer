@@ -1,3 +1,29 @@
+
+
+h2{
+	font-family: arcade;
+	text-align: center;
+	color: #FFF;
+}
+
+h4{
+	font-family: arcade;
+	text-align: center;
+	color: #72B8FF;
+}
+
+h6{
+	font-family: arcade;
+	text-align: center;
+	color: #72B8FF;
+}
+
+
+.nopad
+{
+	padding: .4rem 1.2rem .4rem;	
+}
+
 @font-face {
 	font-family: arcade;
 	src: url("../fonts/arcade.ttf");
@@ -12,6 +38,8 @@ body {
 	margin-top: 20px;
 	padding: 20px 10px;
 	overflow: auto;
+	border-style: solid; 
+	border-color: white; 
 
 }
 
@@ -21,11 +49,6 @@ body {
 	margin-top: 7px;
 }
 
-h2{
-	font-family: arcade;
-	text-align: center;
-	color: #FFF;
-}
 
 .searchbar{
 	max-width: 90%;
@@ -42,4 +65,71 @@ h2{
 	height: 37px;
 	width: 37px;
 	border-width: 0px;
+}
+
+/* css de Diego.... Si esta feo y que*/ 
+
+.content{
+	background: #000; 
+	margin-top: 20px;
+	padding: 20px 10px;
+	overflow: auto; 
+	border-style: solid; 
+	border-color: white;
+
+
+}
+#cart{
+	text-align: center;
+	font-family: arcade; 
+	font-size: 50px;
+	color: white; 
+	margin-top: 50px;
+	margin-bottom: 100px; 
+}
+
+h3, p{
+	font-family: arcade;
+	color: white; 
+	font-size: 35px; 
+	line-height: 90%;
+
+
+
+}
+
+#stock{
+	font-size: 25px; 
+}
+#p1{
+	margin-bottom: 15px;
+}
+
+.button{
+	color: white; 
+	font-family: arcade; 	
+	border: 0;
+  	border-radius: 4px;
+ 	box-shadow: 0 5px 0 #006599;
+ 	cursor: pointer;
+ 	margin: 0;
+ 	outline: 0;
+ 	padding: 12px 20px;
+ 	transition: all .1s linear;
+}
+
+.button:active {
+  box-shadow: 0 2px 0 #006599;
+  transform: translateY(3px);
+}
+
+.margin{
+	margin: 20px; 
+
+}
+
+#text{
+	margin: 20px;
+	font-size: 30px; 
+	text-align: center; 
 }
