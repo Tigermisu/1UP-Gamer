@@ -79,10 +79,14 @@ a:hover.link{
 	border-width: 0px;
 }
 
+#clearer{
+	clear: both;
+}
+
 #footer{
 	clear: both;
 	width: 100%;
-	margin-top: 100%;
+	margin-top: 20px;
 	text-align: center;
 	border: solid 1px white;
  	background: black;
