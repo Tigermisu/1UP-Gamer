@@ -37,7 +37,7 @@ body {
 	background: #000; 
 	margin-top: 20px;
 	padding: 20px 10px;
-	overflow: auto;
+	overflow: hidden;
 	border-style: solid; 
 	border-color: white; 
 
@@ -77,9 +77,9 @@ body {
 
 .content{
 	background: #000; 
-	margin-top: 20px;
+	margin: 20px 0;
 	padding: 20px 10px;
-	overflow: auto; 
+	overflow: hidden; 
 	border-style: solid; 
 	border-color: white;
 }
@@ -115,7 +115,7 @@ p{
  	cursor: pointer;
  	margin: 0;
  	outline: 0;
- 	padding: 12px 20px;
+ 	padding: 8px 14px;
  	transition: all .1s linear;
 }
 
@@ -129,10 +129,12 @@ p{
    border:2px solid white;
    	width: 200px; 
 	height: 150px; 
+	margin: 0 0 10px 0;
 
 }
 .cont1{
 	margin: 5px;
+	text-align: center;
 }
 
 
