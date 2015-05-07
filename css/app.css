@@ -221,7 +221,7 @@ h3, p{
 	top: 1px;
 }
 
-.content .loginbutt {
-	margin-bottom: 10px;
+.content .loginbutt, .content .registerbutt {
+	margin: 10px;
 	
 }
