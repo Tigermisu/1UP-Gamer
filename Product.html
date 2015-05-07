@@ -6,59 +6,138 @@
 	<title>1UP Gamer</title>
 	<link rel="stylesheet" href="css/foundation.css" />
 	<link rel="stylesheet" href="css/app.css" />
+	<link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
 	<script src="js/vendor/modernizr.js"></script>
+	<script src="js/jquery-1.8.3.min.js"></script>
+	<script src="js/jquery.elevatezoom.js"></script>
 </head>
 <body>
 
-	    <!-- Header -->
-    <div class="row">
-    	<div class="large-12 columns">
-    		<div class="header">
-    			<div class="large-3 medium-4 small-12 columns">
-    				<!-- Logo -->
-    				<a href="index.html"><img src="img/logo-transparent.png" /></a>
-    			</div>
+	<!-- Header -->
+	<div class="row">
+		<div class="large-12 columns">
+			<div class="header">
+				<div class="large-3 medium-4 small-12 columns">
+					<!-- Logo -->
+					<a href="index.html"><img src="img/logo-transparent.png" /></a>
+				</div>
 
-    			<div class="large-9 medium-8 small-12 columns">
-    				<div class="row">
-		    			<div class="large-8 small-12 columns">
-		    				<!-- Search bar -->
-		    				<form method="POST">
-		    					<input type="text" class="searchbar">
-		    					<input type="submit" class="lupa" value="">
-		    				</form>
-		    			</div>
-		    			<div class="large-2 small-6 columns" style="text-align: center">
-		    				<!-- Log In button -->
-		    				<a href="#" class="loginbutt">Login</a>
-		    			</div>
-		    			<div class="large-2 small-6 columns" style="text-align: center">
-		    				<!-- Register button -->
-		    				<a href="#" class="registerbutt">Register</a>
-		    			</div>
-		    		</div>
+				<div class="large-9 medium-8 small-12 columns">
+					<div class="row">
+						<div class="large-8 small-12 columns">
+							<!-- Search bar -->
+							<form method="POST">
+								<input type="text" class="searchbar">
+								<input type="submit" class="lupa" value="">
+							</form>
+						</div>
+						<div class="large-2 small-6 columns" style="text-align: center">
+							<!-- Log In button -->
+							<a href="#" class="loginbutt">Login</a>
+							<!-- hehe butt -->
+						</div>
+						<div class="large-2 small-6 columns" style="text-align: center">
+							<!-- Register button -->
+							<a href="#" class="registerbutt">Register</a>
+						</div>
+					</div>
 
-		    		<div class="row">
-		    			<div class="large-12">
-		    			  <h2>IT IS DANGEROUS TO GO ALONE! BUY HERE!</h2>
-		    			</div>
-		    			
-		    		</div>
-		    	</div>
+					<div class="row">
+						<div class="large-12">
+							<h2>IT IS DANGEROUS TO GO ALONE! BUY HERE!</h2>
+						</div>
 
-    		</div>
-    	</div>
-    </div>
+					</div>
+				</div>
 
-    
+			</div>
+		</div>
+	</div>
+
+
 	<div class="row">
 		<div class="large-12 columns">
 			<div class="content">
-				<div class="large-4 medium-4 small-12 columns">
-				<img src="img/nes controller.jpg">
+				<div class="large-7 medium-7 small-12 columns">
+					<img src="img/nes controller.jpg" id="zoom_01" data-zoom-image="img/nes controller.jpg" >
+					<script>
+					$("#zoom_01").elevateZoom();
+					</script>
+				</div>
+				<div class = "large-5 medium-5 small-12 columns">
+					<h2>Nes controller</h2>
+					<p>Price: $20.00</p> 
+					<p>in stock</p>
+					<a href="#" class="round button" id = "addcart"><i class="fa fa-cart-plus fa-2x"></i>&nbsp Add to cart</a>
+				</div> 
+				<br>
+				<div class = "large-12 columns" id = "details">
+					<br>
+					<center><h3>Description</h3></center>
+					<p align="justify">This is a brand new NES Nintendo controller in box!<br><br>
+						This is a third party controller and is exactly like the original but now with an extra long 11.5 foot cable!<br>
+
+						The highest quality new Nintendo NES controller available, it's backed by a one year guarantee.</p>
+						<br><br>
+						<center><h3>Product details</h3></center>
+						<p align="justify">UPC: 670615200128<br>
+							Condition:New<br>
+							Platform: Nintendo NES<br>
+							Region: NTSC (N. America)<br>
+							Part Number: NES_Controller_1</p>
+							<br>
+						</div>
+						<br>
+						<div class = "large-12 columns">
+							<br>
+							<h3>Customers &nbsp Who &nbsp Bought &nbsp This &nbsp Item &nbsp Also &nbsp Bought</h3>
+							<ul class="example-orbit-content" data-orbit data-options="animation:slide;
+							slide_number: false; 
+							animation_speed:500;
+							pause_on_hover:true;
+							timer: false;
+							animation_speed:none;
+							navigation_arrows:true;
+							bullets:false;">
+							<li data-orbit-slide="slide-1">
+								<div>
+									<div class = "large-4 small-4 columns">
+										<center><a href="#"><img src="img/sega.jpg" id= "margin"></a><br></center>
+										<center><p>sega genesis</p></center>
+									</div>
+									<div class = "large-4 small-4 columns">
+										<center><a href="#"><img src="img/gamecube.jpg" id= "margin"></a><br></center>
+										<center><p>nintendo gamecube</p></center>
+									</div>
+									<div class = "large-4 small-4 columns">
+										<center><a href="#"><img src="img/zapgun.jpg" id= "margin"></a><br></center>
+										<center><p>Nes zapgun</p></center>
+									</div>
+
+								</div>
+							</li>
+							<li data-orbit-slide="slide-2">
+								<div>
+									<div class = "large-4 small-4 columns">
+										<center><a href="#"><img src="img/marioamiibo.jpg" id= "margin" ></a><br></center>
+										<center><p>Mario amiibo</p></center>
+									</div>
+									<div class = "large-4 small-4 columns">
+										<center><a href="#"><img src="img/warioamiibo.jpg" id= "margin"></a><br></center>
+										<center><p>wario amiibo</p></center>
+									</div>
+									<div class = "large-4 small-4 columns">
+										<center><a href="#"><img src="img/minecraftps3.jpg" id= "margin"></a><br></center>
+										<center><p>minecraft-ps3</p></center>
+									</div>
+
+								</div>
+							</li>
+						</ul>
+					</div>
 				</div>
 			</div>
-		</div></div>
+		</div>
 
 		<script src="js/vendor/jquery.js"></script>
 		<script src="js/foundation.min.js"></script>

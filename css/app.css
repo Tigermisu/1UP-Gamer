@@ -109,7 +109,7 @@ p{
 	font-family: arcade;
 	color: white; 
 	font-size: 25px; 
-	line-height: 50%;
+	line-height: 100%;
 }
 
 
@@ -152,6 +152,10 @@ p{
 	margin: 5px;
 
 }
+#remove:active {
+  box-shadow: 0 2px 0 #8A0808;
+  transform: translateY(3px);
+}
 
 #checkout{
 	background-color: #515151; 
@@ -166,11 +170,40 @@ p{
 #checkout{
 	margin-top: 50px;
 }
+#checkout:active {
+  box-shadow: 0 2px 0 #383838;
+  transform: translateY(3px);
+}
 
 select{
 	font-family: arcade; 
 	font-size: 20px; 
 }
+#addcart{
+	background-color: #515151 ; 
+	box-shadow: 0 5px 0 #383838; 
+	margin: 5px;
+	transition: all .1s linear;
+}
+#addcart:active{
+	 box-shadow: 0 2px 0 #383838;
+	transform: translateY(3px);
+
+}
+
+h3{
+	font-family: arcade; 
+	color: white; 
+	font-size: 30px; 
+}
+
+#details{
+border-style: solid; 
+border-color: #383838; 
+margin-top: 30px; 
+
+}
+
 
 
 
