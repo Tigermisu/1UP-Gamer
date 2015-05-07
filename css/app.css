@@ -44,8 +44,8 @@ body {
 }
 
 .centerimg{
-	display: inherit;
-	margin: auto;
+	display: -webkit-box;
+	margin: 10px auto;
 }
 
 .headerbutton{
@@ -82,9 +82,8 @@ body {
 	overflow: auto; 
 	border-style: solid; 
 	border-color: white;
-
-
 }
+
 #cart{
 	text-align: center;
 	font-family: arcade; 
@@ -224,4 +223,12 @@ h3, p{
 .content .loginbutt, .content .registerbutt {
 	margin: 10px;
 	
+}
+
+.subcontent{
+	background: #000;
+	margin: 10px 20px; 
+	padding: 20px 10px;
+	border-style: solid; 
+	border-color: white;
 }
