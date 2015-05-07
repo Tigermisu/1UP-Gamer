@@ -79,6 +79,24 @@ a:hover.link{
 	border-width: 0px;
 }
 
+#footer{
+	clear: both;
+	width: 100%;
+	margin-top: 100%;
+	text-align: center;
+	border: solid 1px white;
+ 	background: black;
+  	border-bottom-width: 0px
+}
+
+#footer p a{
+	color: white;
+}
+
+#footer p a:hover{
+	color: #CCC;
+}
+
 /* css de Diego.... Si esta feo y que*/ 
 
 
