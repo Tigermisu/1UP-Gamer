@@ -7,6 +7,7 @@
 	<link rel="stylesheet" href="css/foundation.css" />
 	<link rel="stylesheet" href="css/app.css" />
 	<link rel="shortcut icon" href="img/#">
+	<link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
 	<script src="js/vendor/modernizr.js"></script>
 </head>
 <body>
@@ -48,47 +49,85 @@
 			</div>
 		</div>
 	</div>
-</br>
-<div class="row">
-	<div class="large-12 columns">
-		<div class="content">
-			<div class="large-4 medium-4 small-12 columns">
-				<!-- cart -->
-				<img src="img/cart.fw.png"/>
-			</div>
-			<div class="large-8 medium-8 small-12 columns">
-
-				<div class="large-12 columns">
-					<h3 id = "cart">Shopping Cart</h3>
-				</div>
-
-			</div> 
-			<div class = "row" id = "item1"> 
-				<div class = "large-4 medium-4 small-12 columns " >
-					<img id = "p1" src="img/nes controller.jpg" height="420" width="420"> 
-				</div>
-				<div class = "large-8 columns medium-8 small-12">
-					<h3>NES CONTROLLER</h3>
-					<p>$20</p>
-					<p id = "stock">In stock.</p> </div>
-				</div>
-
-				<div class = "row" id = "item2">
-					<div class = "large-4 medium-4 small-12 columns ">
-						<img id = "p1" src="img/play4.jpg" height="420" width="420"> 
+	<br>
+	<div class="row">
+		<div class = "large-12 column">
+			<div class = "content">
+				<div>
+					<div class="large-4 medium-4 small-12 columns">
+						<div align="center">
+							<img src="img/cart.fw.png" />
+						</div>
 					</div>
-					<div class = "large-8 columns medium-8 small-12">
-						<h3>Xbox One </h3>
-						<p>$400</p>
-						<p id = "stock">In stock.</p> </div>
+					<div class = "large-8 medium-8 small-12 columns" id = "cart">
+						<h1>Shopping cart</h1>
 					</div>
-					<a href="#" class="round button">Checkout</a>
 				</div>
+				<br>
+				<div class "p1">
+					<div class = "large-12 column">
+						<div class = "large-4 medium-4 small-12 columns">
+							<div class = "img">
+								<img src="img/nes controller.jpg" id = "margin">
+							</div>
+						</div>
+						<div class = "large-8 medium-8 small-12 columns" id = "text1">
+							<div class = "large-9 columns small-9 columns">
+								<h3>Nes controller</h3>
+							</div>
+							<div class = "large-3 small-3 columns">
+								<a href="#" class="round button" id = "remove">&#10006</a>
+							</div>
 
+							<p>$20.00</p>
+							<p id = "stock">in stock</p>
 
+						</div>
+					</div>
+				</div>
+				<div class = "p2">
+					<div class = "large-12 column" id = "p2">
+						<div class = "large-4 medium-4 small-12 columns">
+						<div class = "img">
+								<img src="img/play4.jpg" id = "margin">
+							</div>
+						</div>
+						<div class = "large-8 medium-8 small-12 columns" id = "text1">
+							<div class = "large-9 columns small-9 columns">
+								<h3>Xbox One</h3>
+							</div>
+							<div class = "large-3 small-3 columns">
+								<a href="#" class="round button" id = "remove">&#10006</a>
+							</div>
+
+							<p>$399.99</p>
+							<p id = "stock">in stock</p>
+
+						</div>
+					</div>
+				</div>
+				<br>
+				<div class "buttons">
+					<div class = "large-12 column">
+						<div class = " large-6  small-12 columns">
+							<div align="center">
+								<a href="#" id = "next"><i class="fa fa-arrow-right fa-5x" ></i></a>
+							</div>
+							<br> 
+						</div>
+						
+						<div class = "large-6 small-12 columns">
+							<div align="center">
+								<a href="#" class = "round button" id= "checkout">Go to Checkout</a>
+							</div>
+							<br>
+						</div>
+					</div>
+				</div>
 			</div>
 
 		</div>
+	</div>
 </body>
 <script src="js/vendor/jquery.js"></script>
 <script src="js/foundation.min.js"></script>
@@ -97,3 +136,8 @@
 </script>
 </body>
 </html>
+
+
+
+
+
