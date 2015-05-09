@@ -84,7 +84,7 @@
 							</div>
 							<div class = "large-2 medium-2 small-5 columns">
 								<p>quantity</p>
-								<select id="Select0" onchange="ValorTotal(0)">
+								<select id="Select0" onchange="ValorTotal(Select0, 20, 0)">
 									<option value="1" selected>1</option>
 									<option value="2">2</option>
 									<option value="3" >3</option>
@@ -93,7 +93,7 @@
 								</select>
 							</div>
 							<div class = "large-2 medium-2 small-2 columns">
-								<center><a onclick="removeItem(primerproducto)" class="round button" id = "remove">&#10006</a></center>
+								<center><a onclick="removeItem(primerproducto, 20, Select0)" class="round button" id = "remove">&#10006</a></center>
 							</div>
 						</div>
 					</div>
@@ -116,7 +116,7 @@
 							</div>
 							<div class = "large-2 medium-2 small-5 columns">
 								<p>quantity</p>
-								<select id="Select0" onchange="ValorTotal(0)">
+								<select id="Select1" onchange="ValorTotal(Select1, 399.99, 1)">
 									<option value="1" selected>1</option>
 									<option value="2">2</option>
 									<option value="3">3</option>
@@ -125,7 +125,7 @@
 								</select>
 							</div>
 							<div class = "large-2 medium-2 small-2 columns">
-								<center><a onclick="removeItem(segundoproducto)" class="round button" id = "remove">&#10006</a></center>
+								<center><a onclick="removeItem(segundoproducto, 399.99, Select1)" class="round button" id = "remove">&#10006</a></center>
 							</div>
 						</div>
 					</div>
@@ -147,7 +147,7 @@
 							</div>
 							<div class = "large-2 medium-2 small-5 columns">
 								<p>quantity</p>
-								<select id="Select0" onchange="ValorTotal(0)">
+								<select id="Select2" onchange="ValorTotal(Select2, 49.95, 2)">
 									<option value="1" selected>1</option>
 									<option value="2">2</option>
 									<option value="3">3</option>
@@ -156,13 +156,16 @@
 								</select>
 							</div>
 							<div class = "large-2 medium-2 small-2 columns">
-								<center><a onclick="removeItem(tercerproducto)" class="round button" id = "remove">&#10006</a></center>
+								<center><a onclick="removeItem(tercerproducto, 49.95, Select2)" class="round button" id = "remove">&#10006</a></center>
 							</div>
 						</div>
 					</div>
 					</div>
 						<div class "buttons">
-					<div class = "large-12 column">
+						<div class = "large-12 column">
+							<div align="center">
+								<p id="subtotal">Subtotal: $469.94</p>
+							</div>
 						</div>
 						
 						<div class = "large-6 small-12 columns">
