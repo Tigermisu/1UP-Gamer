@@ -4,12 +4,15 @@
 	<meta charset="utf-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 	<title>1UP Gamer</title>
+	<script src="../js/App.js"></script>
 	<link rel="stylesheet" href="../css/foundation.css" />
 	<link rel="stylesheet" href="../css/app.css" />
 	<link rel="stylesheet" href="../font-awesome/css/font-awesome.min.css">
 	<script src="../js/vendor/modernizr.js"></script>
 	<script src="../js/jquery-1.8.3.min.js"></script>
 	<script src="../js/jquery.elevatezoom.js"></script>
+		<script src="../js/sweetalert.min.js"></script> 
+	<link rel="stylesheet" type="text/css" href="../css/sweetalert.css">
 </head>
 <body>
 
@@ -68,7 +71,7 @@
 					<h2>Dragon Age: Inquisition - PS4</h2>
 					<p>Price: $9.99</p> 
 					<p>in stock</p>
-					<a href="#" class="round button" id = "addcart"><i class="fa fa-cart-plus fa-2x"></i>&nbsp Add to cart</a>
+					<a href="#" class="round button" id = "addcart" onclick="addToCart()"><i class="fa fa-cart-plus fa-2x"></i>&nbsp Add to cart</a>
 				</div> 
 				<br>
 				<div class = "large-12 columns" id = "details">
