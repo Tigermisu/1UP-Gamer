@@ -50,3 +50,44 @@ function addToCart(){
 			window.location.href = "../Cart.html";
 		});
 }
+
+function register(){
+	swal({   
+		title: "Create a new account.",   
+		text: "Enter a username or your e-mail:",   
+		type: "input",   
+		showCancelButton: true,   
+		closeOnConfirm: false,   
+		animation: "slide-from-top",   
+		inputPlaceholder: "E-mail/Username" }, 
+
+		function(accountname){   
+			if (accountname === false) 
+				return false;      
+			if (accountname === "") 
+			{     
+				swal.showInputError("Please enter an e-mail or your username.");     
+				return false   
+			}      
+				swal({   
+					title: "Create a new account.",   
+					text: "Choose a password:",   
+					type: "input",   
+					inputType: "password",
+					showCancelButton: true,   
+					closeOnConfirm: false,   
+					animation: "slide-from-top",   
+					inputPlaceholder: "Password" }, 
+
+					function(password){   
+						if (password === false) 
+							return false;      
+						if (password === "") 
+						{     
+							swal.showInputError("Please choose a password.");     
+							return false   
+						}      
+							swal("Success", "Account  '" + accountname + "'  has been created.", "success"); });
+		}
+
+)};
