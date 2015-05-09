@@ -159,12 +159,36 @@ p{
 	height: 150px; 
 	margin: 0 0 10px 0;
 
+
 }
 .cont1{
 	margin: 5px;
 	text-align: center;
 }
 
+.centerimg{
+border-style: solid; 
+border-color: #383838; 
+height: 300px; 
+width: auto; 
+}
+.catimg{ 
+	height:450px; 
+	width:1000px;
+}
+.consoleimg{
+border-style: solid; 
+border-color: #383838; 
+height: 180px; 
+width: 200px; 
+}
+.accesories{
+border-style: solid; 
+border-color: #383838; 
+height: 180px; 
+width: 200px; 
+
+}
 
 
 #remove{ 
