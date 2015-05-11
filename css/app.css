@@ -18,6 +18,10 @@ h6{
 	color: #72B8FF;
 }
 
+.example-orbit img, .example-orbit-content img{
+	width:100%;
+	height:auto;
+}
 
 .nopad
 {
