@@ -37,11 +37,12 @@ body {
 	background-image: url("../img/Background.jpg");
 }
 
+a:hover.loginbutt, a:hover.registerbutt{
+	color: #CCC;
+}
 
 a:hover.link{
 	text-decoration: underline;
-
-
 }
 
 .header {
